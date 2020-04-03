@@ -21,7 +21,7 @@ pipeline {
                 }
             }
         }
-        stage('Deliver') {
+        stage('Deploy') {
             steps {
                 sh '''
                 #!/usr/bin/env bash
